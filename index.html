@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="animate.css/animate.min.css">
     <!-- Iconify -->
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-    <!-- Parallax hover -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
      
 </head>
 <body>
@@ -53,15 +51,15 @@
               </div>
               <button class="button animate__animated animate__fadeInDown">Create Account Now</button>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-tilt>
                 <!-- <img class="animate__animated animate__zoomIn" src="asset/sapiens.png" alt=""> -->
                 <div class="animate__animated animate__zoomIn" data-relative-input="true" id="scene">
-                  <div data-depth="0.1"><img src="asset/Illustration/Circle.png" alt=""></div>
-                  <div data-depth="0.20"><img src="asset/Illustration/Chart.png" alt=""></div>
-                  <div data-depth="0.20"><img src="asset/Illustration/Clock.png" alt=""></div>
-                  <div data-depth="0.30"><img src="asset/Illustration/Phone.png" alt=""></div>
-                  <div data-depth="0.30"><img src="asset/Illustration/Tab Browser.png" alt=""></div>
-                  <div data-depth="0.55"><img src="asset/Illustration/Female.png" alt=""></div>
+                  <div data-depth="0.1"><img src="asset/Illustration/circle-bg.png" alt=""></div>
+                  <div data-depth="0.20"><img src="asset/Illustration/chart.png" alt=""></div>
+                  <div data-depth="0.20"><img src="asset/Illustration/clock.png" alt=""></div>
+                  <div data-depth="0.30"><img src="asset/Illustration/phone.png" alt=""></div>
+                  <div data-depth="0.30"><img src="asset/Illustration/tab-browser.png" alt=""></div>
+                  <div data-depth="0.55"><img src="asset/Illustration/female.png" alt=""></div>
                 </div>
             </div>
         </div>
@@ -99,11 +97,14 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- Parallax hover -->
     <script src="js/parallax.min.js"></script>
     <script>
       var scene = document.getElementById('scene');
       var parallaxInstance = new Parallax(scene);
     </script>
+    <!-- Tilt js -->
+    <script src="js/tilt.jquery.js"></script>
 
 </body>
 </html>

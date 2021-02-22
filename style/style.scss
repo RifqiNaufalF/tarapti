@@ -12,6 +12,7 @@ body {
     background-image: url('../asset/Blue-Chalk.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 // Custom scrollbar
@@ -61,18 +62,14 @@ body {
 /* Header */
 
 #header {
-    padding: 40px 0;
+    padding: 20px 0;
 
     .sub-title {
         margin-top: 26px;
     }
 
     img {
-        width: 100%;
-    }
-
-    .illustration-clock {
-        margin-left: 25em;
+        width: 120%;
     }
 }
 
@@ -84,10 +81,11 @@ body {
     font-weight: 500;
     padding: 18px 28px;
     border-radius: 10px;
+    transition: all 300ms;
     
     &:hover {
         transition: all 300ms;
-        margin-bottom: 20px;
+        background-color: #cf5953;
     }
 }
 
