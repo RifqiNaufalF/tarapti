@@ -76,6 +76,10 @@ body {
   width: 100%;
 }
 
+#header .illustration-clock {
+  margin-left: 25em;
+}
+
 .button {
   margin-top: 32px;
   border: none;
