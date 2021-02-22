@@ -27,6 +27,75 @@ body {
   overflow-x: hidden;
 }
 
+body.preloader-site {
+  overflow: hidden;
+}
+
+.preloader-wrapper {
+  height: 100%;
+  width: 100%;
+  background: #FFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+}
+
+.preloader-wrapper .preloader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 120px;
+}
+
+/* Preloader Upload File */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+  background-color: transparent;
+}
+
+.preloader-upload {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+  background: rgba(255, 255, 255, 0.8);
+  transition: all 2s ease;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+}
+
+.preloader .loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font: 14px arial;
+}
+
+.preloader-upload .loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.resUpload {
+  color: green;
+  font-weight: bold;
+}
+
 /* Works on Firefox */
 * {
   scrollbar-width: thin;
@@ -77,6 +146,10 @@ body {
   width: 120%;
 }
 
+#header .illustration {
+  padding-right: 50px;
+}
+
 .button {
   margin-top: 32px;
   border: none;
@@ -108,7 +181,7 @@ footer {
 }
 
 footer p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
