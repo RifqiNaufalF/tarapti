@@ -84,8 +84,16 @@ body.preloader-site {
     font-weight: bold;
 }
 
-// Custom scrollbar
+// Cutsom Animate.css
+.animate__animated.animate__fadeInDown {
+    --animate-duration: 1.6s;
+}
 
+.animate__animated.animate__zoomIn {
+    --animate-duration: 1.2s;
+}
+
+// Custom scrollbar
 /* Works on Firefox */
 * {
     scrollbar-width: thin;
@@ -158,18 +166,46 @@ body.preloader-site {
         transition: all 600ms;
         background-color: #654890;
     }
+
+    &:focus {
+        outline: none;
+    }
 }
 
-// Cutsom Animate.css
-.animate__animated.animate__fadeInDown {
-    --animate-duration: 1.6s;
+// Thank you page
+.card {
+    margin: 70px auto 160px auto;
+    width: 65%;
+    padding: 40px 25px;
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px );
+    border-radius: 10px;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 9999;
 }
 
-.animate__animated.animate__zoomIn {
-    --animate-duration: 1.2s;
+.circle-top {
+    margin: -260px auto auto 140px;
+    -ms-transform: rotate(120deg); /* IE 9 */
+    transform: rotate(120deg);
+
+    img {
+        width: 100px;
+    }
 }
 
+.circle-bottom {
+    margin: -250px 120px auto auto;
+
+    img {
+        width: 200px;
+    }
+}
+
+// Footer
 footer {
+    width: auto;
     margin: 50px 0 20px;
 
     p {
@@ -194,6 +230,16 @@ footer {
         margin-top: 20px;
     }
 
+    .card {
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .circle-bottom {
+        width: 100%;
+        margin-right: -25px;
+    }
+
 }
 
 
@@ -206,6 +252,21 @@ footer {
     .button {
         width: 100%;
         margin-bottom: 32px;
+    }
+
+    .circle-top {
+        margin-bottom: 200px;
+
+        img {
+            width: 90px;
+        }
+    }
+
+    .circle-bottom {
+
+        img {
+            width: 120px;
+        }
     }
 
     footer {
