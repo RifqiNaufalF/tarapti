@@ -5,7 +5,7 @@ https://tarapti.netlify.app/
 <br>
 <br>
 <h3>Features</h3>
-<ol>
+<ul>
   <li>
     <p>Parallax.js</p>
     <p>https://github.com/wagerfield/parallax</p>
@@ -15,6 +15,10 @@ https://tarapti.netlify.app/
     <p>https://github.com/gijsroge/tilt.js</p>
   </li>
   <li>
+    <p>Animate.css</p>
+    <p>https://animate.style/</p>
+  </li>
+  <li>
     <p>Fully responsive</p>
   </li>
-</ol>
+</ul>
