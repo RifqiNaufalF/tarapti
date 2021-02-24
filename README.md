@@ -4,7 +4,7 @@ Demo: <br>
 https://tarapti.netlify.app/
 <br>
 <br>
-<h3>Features</h3>
+<h3>Technology that helps me build this site &#10024;</h3>
 <ul>
   <li>
     <p>Parallax.js</p>
@@ -19,6 +19,7 @@ https://tarapti.netlify.app/
     <p>https://animate.style/</p>
   </li>
   <li>
-    <p>Fully responsive</p>
+    <p>Bootstrap 5</p>
+    <p>https://getbootstrap.com/docs/5.0/getting-started/introduction/</p>
   </li>
 </ul>
